@@ -6,7 +6,7 @@ header {
   background-color: #579C87;
   color: #fdcb46;
   text-align: center;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
   line-height: 100px;
   font-family: "Montserrat", sans-serif; 
   font-size: 1.6em;
@@ -14,8 +14,7 @@ header {
 }
 header h1 {
     margin-top: 0px;
-    font-weight: bolder;
-   
+       
   }
 
 
