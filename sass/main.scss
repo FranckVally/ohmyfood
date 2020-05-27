@@ -11,7 +11,7 @@
 
 .tremble {
     cursor: pointer;
-    transform: translatey(5px);
+    transform: translatey(0px);
     transition-property: transform;
     transition-duration: 400ms;
     &:hover {
@@ -19,5 +19,12 @@
     }
 }
 
-
+.zoom2 {
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
 
