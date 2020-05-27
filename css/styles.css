@@ -4,7 +4,7 @@ body {
 
 header {
   background-color: #579C87;
-  color: #FBC02D;
+  color: #fdcb46;
   text-align: center;
   letter-spacing: -5px;
   line-height: 100px;
@@ -52,13 +52,13 @@ footer {
 .footer__left{
     padding-left: 20px;
     text-decoration: none;
-    color: #FBC02D;
+    color: #fdcb46;
   }
 
 .footer__right{
     padding-right: 20px;
     text-decoration: none;
-    color: #FBC02D;
+    color: #fdcb46;
   }
 
 

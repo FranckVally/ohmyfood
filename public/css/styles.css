@@ -6,4 +6,12 @@
   .zoom:hover {
     transform: scale(1.05); }
 
+.tremble {
+  cursor: pointer;
+  transform: translatey(5px);
+  transition-property: transform;
+  transition-duration: 400ms; }
+  .tremble:hover {
+    transform: translatey(10px); }
+
 /*# sourceMappingURL=styles.css.map */
