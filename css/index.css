@@ -38,7 +38,28 @@ header h1 {
   grid-template-rows: 3% 39% 3% 39% 3% 10% 3%;
   margin: 0rem 3rem 0rem 3rem;
   height: 100%;
+  grid-template-areas:  "a a a a a"
+                        "a note a a a"   
+  "a a a a a"
+  "a a a a a" 
+  "a a a a a"
+  "a a a a a"
+  "a a a a a"
 }
+
+.note {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 6px 6px #e7e2e2;
+  -webkit-box-shadow: 0px 0px 6px 6px #e7e2e2;
+  -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
+  background-color: #FCDFDB;
+  text-align: center;
+  grid-area: note;
+  z-index: 2;
 
 /*elements pied de page */  
 footer {
