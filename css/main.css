@@ -7,7 +7,7 @@ header {
   background-color: #579C87;
   color: #fdcb46;
   text-align: center;
-  letter-spacing: -3px;
+  letter-spacing: -0.2rem;
   line-height: 100px;
   font-family: "Montserrat", sans-serif; 
   font-size: 1.6em;
@@ -41,23 +41,23 @@ footer {
     color: #fdcb46;
   }
 
-
 .grid-1 {
   display: grid;
-  grid-template-columns: 50px 1fr 50px 1fr 50px;
-  grid-template-rows: 10px 90% 20px 90% 20px 10% 10px;
-  white-space: 100%;
+  grid-template-columns: 1fr  1fr 1fr 1fr 1fr 1fr ;
+  grid-gap: 2em;
+  grid-template-rows:  2fr 2fr 1fr 50px;
+  min-height: 100vh;
 }
+
+
 
 /* items */
 
-.grid-1 div {
-  color: white;
-}
+
 
 .note{
-  grid-column-start: 2; 
-  grid-row-start:2;
+  grid-column-start: 3; 
+  grid-row-start:1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,11 +66,11 @@ footer {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: #FCDFDB;
   text-align: center;
-  margin: 1rem;
+ 
  }
  .delice{
-  grid-column-start: 2; 
-  grid-row-start:4;
+  grid-column-start: 3; 
+  grid-row-start:2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,9 +79,54 @@ footer {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: rgb(236, 236, 236);
   text-align: center;
-  margin: 1rem;
+  
  }
 .soon{
-  grid-column: 3;
-  grid-row: 6;
+  grid-column-start: 3; 
+  grid-column-end:span 2;
+  grid-row-start:3;
+  display: flex;
+  margin: auto;
+
+  
+  
 }
+
+
+
+.soon p {
+display: inline-block;
+text-align: left;
+padding: 0.5em;
+color: #FDCB46;
+font-size: 2vw;
+background-color: #579C87;
+border-radius: 10px;
+height: 1em;
+width: 15vw;
+}
+/* Animation loading sur prochainement */
+
+.points:after {
+  content: ' .';
+  animation: points 1500ms steps(5, end) infinite;}
+
+@keyframes points {
+  0%, 20% {
+    color: rgba(0,0,0,0);
+    text-shadow:
+      .25em 0 0 rgba(0,0,0,0),
+      .5em 0 0 rgba(0,0,0,0);}
+  40% {
+    color: #FCCA46;
+    text-shadow:
+      .25em 0 0 rgba(0,0,0,0),
+      .5em 0 0 rgba(0,0,0,0);}
+  60% {
+    text-shadow:
+      .25em 0 0 #FCCA46,
+      .5em 0 0 rgba(0,0,0,0);}
+  80%, 100% {
+    text-shadow:
+      .25em 0 0#FCCA46,
+      .5em 0 0#FCCA46;}}
