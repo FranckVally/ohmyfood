@@ -105,7 +105,7 @@ footer {
   font-size: 1.5em; 
   font-family: "Devonshire", cursive;
   color: #3c1218;
-  margin: 0rem;
+  padding: 0 1rem 0 1rem;
 }
  .delice{
   grid-column-start: 3; 
@@ -136,7 +136,7 @@ footer {
   background: -webkit-linear-gradient(360deg, #0e0eac, #67aef1);
   -webkit-background-clip: text;
   color: transparent;
-  margin: 0rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .chic{
@@ -159,7 +159,7 @@ footer {
   background: -webkit-linear-gradient(360deg, #d8852e, #905bfd);
   -webkit-background-clip: text;
   color: transparent;
-  margin: 0rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .chic h3 {
@@ -200,6 +200,7 @@ footer {
   -webkit-background-clip: text;
   color: transparent;
   margin: 0rem;
+  padding: 0 1rem 0 1rem;
 }
 
 
@@ -225,6 +226,7 @@ background-color: #579C87;
 border-radius: 10px;
 height: 1.1em;
 width: 18vw;
+margin: 0px auto;
 }
 
 /* Animation point sur prochainement */
@@ -254,12 +256,40 @@ width: 18vw;
       .5em 0 0#FCCA46;}}
       
 
-      /* Animation point sur les menu */
-      .zoom {
-        cursor: pointer;
-        transform: scale(1);
-        transition: transform 400ms;
-      }
-      .zoom:hover {
-        transform: scale(1.15);
-      }
+/* Animation point sur les menu */
+ .zoom {
+  cursor: pointer;
+   transform: scale(1);
+   transition: transform 400ms;
+  }
+.zoom:hover {
+  transform: scale(1.15);
+   }
+
+
+   /* [1] The container */
+.zoom2 {
+  height: 300px; 
+  overflow: hidden; 
+}
+
+
+.zoom2 {
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 1s cubic-bezier(.19,.44,.25,.93)
+}
+
+
+.zoom2:hover img {
+  transform: scale(1.4);
+}
+
+
+.zoom2:hover p {
+  transform: scale(1.4);
+}
+
+.zoom2:hover h3 {
+  transform: scale(1.5);
+}
