@@ -50,7 +50,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr  1fr 1fr 1fr 1fr 1fr ;
   grid-gap: 3em;
-  grid-template-rows: 100px 3fr 3fr 2fr 50px;
+  grid-template-rows: 100px 4fr 4fr 2fr;
   min-height: 100vh;
   }
 
@@ -86,11 +86,27 @@ footer {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: #FCDFDB;
   text-align: center;
-  font-size: 1.6em;
+   }
+  .notemusic{
+  margin:0px;
+  width: 15%;
+  height: 14%;
+  margin-left: auto;
+  margin-right: auto;
+   }
+  .note h3 {
+    font-family: "Kalam", cursive;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0rem;
+    color: #3c1218;
   }
-
-
- 
+  .note p {
+  font-size: 1.5em; 
+  font-family: "Devonshire", cursive;
+  color: #3c1218;
+  margin: 0rem;
+}
  .delice{
   grid-column-start: 3; 
   grid-row-start:3;
@@ -108,44 +124,110 @@ footer {
   .delice h3 {
     font-family: "Kalam", cursive;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
     margin: 0rem;
     color: #4478cf;
   }
+
 .delice p {
-  background: -webkit-linear-gradient(360deg, #1449e5, #0887fb);
+    font-size: 1.5em; 
+  font-family:  'Dancing Script', cursive;
+  background: -webkit-linear-gradient(360deg, #0e0eac, #67aef1);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 2em; 
-  font-family: 'Alex Brush', cursive;
+  color: transparent;
+  margin: 0rem;
 }
+
+.chic{
+  grid-column-start: 4; 
+  grid-row-start:2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 6px 6px #e7e2e2;
+  -webkit-box-shadow: 0px 0px 6px 6px #e7e2e2;
+  -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
+  background-color: #fff5fe;
+  text-align: center;
+  }
+  
+  .chic p {
+  font-size: 0.9em;
+  font-style: bolt; 
+  font-family: 'Croissant One', cursive;
+  background: -webkit-linear-gradient(360deg, #d8852e, #905bfd);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 0rem;
+}
+
+.chic h3 {
+  font-family: "Source Serif Pro", serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 0rem;
+  color: #d8852e;
+}
+.palette{
+  grid-column-start: 4; 
+  grid-row-start:3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 6px 6px #e7e2e2;
+  -webkit-box-shadow: 0px 0px 6px 6px #e7e2e2;
+  -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+ 
+  }
+
+.palette h3 {
+   font-family: "Kalam", cursive;
+   font-weight: normal;
+   font-size: 1.5rem;
+   padding: 0.5rem;
+   margin: 0rem;
+   color: #72bf56;
+  }
+
+.palette p {
+  font-size: 1em; 
+  font-family: 'Kaushan Script', cursive;
+  background: -webkit-linear-gradient(360deg, #3d9339 , #bfff7e);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 0rem;
+}
+
+
 
 .soon{
   grid-column-start: 3; 
   grid-column-end:span 2;
   grid-row-start:4;
   display: flex;
-  margin: auto;
-
-  
-  
+  margin: 0px auto;
 }
 
 
 
 .soon p {
 display: inline-block;
-text-align: left;
+text-align: center;
 padding: 0.5em;
+font-family: "Montserrat", sans-serif;
 color: #FDCB46;
-font-size: 2vw;
+font-size: 1.5vw;
 background-color: #579C87;
 border-radius: 10px;
-height: 1em;
-width: 15vw;
+height: 1.1em;
+width: 18vw;
 }
-/* Animation loading sur prochainement */
+
+/* Animation point sur prochainement */
 
 .points:after {
   content: ' .';
