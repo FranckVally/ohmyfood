@@ -1,10 +1,15 @@
 body {
    background: #fbfbfb;
-    
-}
+   
+    height: 100%;
+    width: 90vw;
+    margin: auto;
+
+   }
 
 header {
-  grid-column-end:span 6 ; 
+  grid-column-start: 1; 
+  grid-column-end:span 6;
   grid-row-start:1;
   display: flex;
   flex-direction: column;
@@ -17,8 +22,7 @@ header {
   font-family: "Montserrat", sans-serif; 
   font-size: 1.6em;
  width: auto;
- 
-}
+ }
 
 
 
@@ -29,9 +33,12 @@ footer {
     display: flex;
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     justify-content: space-between;
     font-family: "Montserrat", sans-serif;
+    
   }
 
 .footer__left{
@@ -48,10 +55,12 @@ footer {
 
 .grid-1 {
   display: grid;
-  grid-template-columns:1fr 1fr 2fr 2fr  1fr 1fr;
-  grid-gap: 2em 3em;
-  grid-template-rows: 100px 4fr 4fr 2fr;
+  grid-template-columns:1fr 1fr 2fr 2fr 1fr 1fr;
+  grid-gap: 2em 2.6em;
+  grid-template-rows: 100px 5fr 5fr 1fr;
   min-height: 100vh;
+  margin: -1rem -5rem -1rem -5rem;
+
   }
 
 
@@ -59,20 +68,7 @@ footer {
 /* items */
 
 
-.head{
-  grid-column-end:span 6 ; 
-  grid-row-start:1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #579C87;
-  color: #fdcb46;
-  text-align: center;
-  letter-spacing: -0.2rem;
-  font-family: "Montserrat", sans-serif; 
-  font-size: 1.6em;
-  margin: 0em;
-}
+
 
 
 .note{
@@ -136,7 +132,7 @@ footer {
   background: -webkit-linear-gradient(360deg, #0e0eac, #67aef1);
   -webkit-background-clip: text;
   color: transparent;
-  padding: 0 1rem 0 1rem;
+  padding: 0 2rem 0 2rem;
 }
 
 .chic{
@@ -153,7 +149,7 @@ footer {
   }
   
   .chic p {
-  font-size: 0.9em;
+  font-size: 1.1em;
   font-style: bolt; 
   font-family: 'Croissant One', cursive;
   background: -webkit-linear-gradient(360deg, #d8852e, #905bfd);
@@ -194,7 +190,7 @@ footer {
   }
 
 .palette p {
-  font-size: 1em; 
+  font-size: 1.4em; 
   font-family: 'Kaushan Script', cursive;
   background: -webkit-linear-gradient(360deg, #3d9339 , #bfff7e);
   -webkit-background-clip: text;
@@ -202,6 +198,7 @@ footer {
   margin: 0rem;
   padding: 0 1rem 0 1rem;
 }
+
 
 
 
@@ -268,28 +265,28 @@ margin: 0px auto;
 
 
    /* [1] The container */
-.zoom2 {
-  height: 300px; 
-  overflow: hidden; 
-}
+
 
 
 .zoom2 {
+  overflow: hidden;
   cursor: pointer;
-  transform: scale(1);
-  transition: transform 1s cubic-bezier(.19,.44,.25,.93)
+  transition: transform 0.4s ease-in-out 0s;
 }
 
 
 .zoom2:hover img {
-  transform: scale(1.4);
+  transition-duration: 0.5s;
+  transform: scale(1.5);
 }
 
 
 .zoom2:hover p {
+  transition-duration: 0.5s;
   transform: scale(1.4);
 }
 
 .zoom2:hover h3 {
+  transition-duration: 0.5s;
   transform: scale(1.5);
 }
