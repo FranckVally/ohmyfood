@@ -1,9 +1,7 @@
 body {
    background: #fbfbfb;
-   
-    height: 100%;
-    width: 90vw;
-    margin: auto;
+   margin: 0;
+  
 
    }
 
@@ -290,3 +288,21 @@ margin: 0px auto;
   transition-duration: 0.5s;
   transform: scale(1.5);
 }
+
+@media screen and (max-width: 800px) {
+  body {
+    background: #4e2424;
+    margin: 0;
+        }
+        .grid-1 {
+          display: grid;
+          grid-template-columns:1fr 1fr 4fr 4fr 1fr 1fr;
+          grid-gap: 1em 1.6em;
+          grid-template-rows: 100px 5fr 5fr 1fr;
+          min-height: 100vh;
+          margin: -1rem -5rem -1rem -5rem;
+        
+        }
+        
+
+        }
