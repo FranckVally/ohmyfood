@@ -7,9 +7,7 @@ body {
    }
 
 header {
-  grid-column-start: 1; 
-  grid-column-end:span 6;
-  grid-row-start:1;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +15,7 @@ header {
   color: #fdcb46;
   text-align: center;
   letter-spacing: -0.2rem;
-  line-height: 100px;
+  line-height: 3rem;
   font-family: "Montserrat", sans-serif; 
   font-size: 1.6em;
  width: auto;
@@ -253,18 +251,10 @@ margin: 0px auto;
       .5em 0 0#FCCA46;}}
       
 
-/* Animation point sur les menu */
- .zoom {
-  cursor: pointer;
-   transform: scale(1);
-   transition: transform 400ms;
-  }
-.zoom:hover {
-  transform: scale(1.15);
-   }
 
 
-   /* [1] The container */
+
+
 
 
 
@@ -275,46 +265,24 @@ margin: 0px auto;
 }
 
 
-.zoom2:hover img {
+.zoom2:hover {
   transition-duration: 0.5s;
   transform: scale(1.5);
 }
 
 
-.zoom2:hover p {
-  transition-duration: 0.5s;
-  transform: scale(1.4);
-}
 
-.zoom2:hover h3 {
-  transition-duration: 0.5s;
-  transform: scale(1.5);
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
 
   @viewport {
     width: device-width; /* largeur du viewport */
     
- }
-
-	body {
-		width: auto;
-		margin: 0;
-		padding: 0;
-	}
-
+ 
 
   
   .grid-1 {
-   display: grid;
-  grid-template-columns:1fr 1fr 4fr 4fr 1fr 1fr;
-  grid-gap: 1em 1.6em;
-  grid-template-rows: 100px 5fr 5fr 1fr;
-  min-height: 90vh;
-  min-width: 90vh;
-  margin: -1rem -5rem -1rem -5rem;
-        
+   display: block;
+       
   }
         
 .soon{
