@@ -24,34 +24,7 @@ header {
  }
 
 
-
-/*elements pied de page */  
-footer {
-    background-color: #579C87;
-    line-height: 3rem;
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    justify-content: space-between;
-    font-family: "Montserrat", sans-serif;
-    
-  }
-
-.footer__left{
-    padding-left: 20px;
-    text-decoration: none;
-    color: #fdcb46;
-  }
-
-.footer__right{
-    padding-right: 20px;
-    text-decoration: none;
-    color: #fdcb46;
-  }
-
+/* grille */
 .grid-1 {
   display: grid;
   grid-template-columns:1fr 1fr;
@@ -81,7 +54,7 @@ footer {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: #FCDFDB;
   text-align: center;
-  padding: 4rem 0rem 4rem;  
+  padding: 3rem 0rem 3rem;  
 }
 
   .notemusic{
@@ -114,7 +87,7 @@ footer {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: rgb(236, 236, 236);
   text-align: center;
-  padding: 4rem 0rem 4rem;
+  padding: 3rem 0rem 3rem;
  
   }
 
@@ -128,7 +101,7 @@ footer {
   }
 
 .delice p {
-    font-size: 1.5em; 
+  font-size: 1.5em; 
   font-family:  'Dancing Script', cursive;
   background: -webkit-linear-gradient(360deg, #0e0eac, #67aef1);
   -webkit-background-clip: text;
@@ -147,7 +120,7 @@ footer {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: #fff5fe;
   text-align: center;
-  padding: 4rem 0rem 4rem;
+  padding: 3rem 0rem 3rem;
   }
   
   .chic p {
@@ -179,7 +152,7 @@ footer {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: rgb(236, 236, 236);
   text-align: center;
-  padding: 4rem 0rem 4rem;
+  padding: 3rem 0rem 3rem;
  
   }
 
@@ -207,6 +180,10 @@ footer {
 .soon{
     display: flex;
     margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+   
+
   }
 
 
@@ -217,14 +194,40 @@ text-align: center;
 padding: 0.5em;
 font-family: "Montserrat", sans-serif;
 color: #FDCB46;
-font-size: 1.5vw;
+font-size: 1rem;
 background-color: #579C87;
 border-radius: 10px;
-height: 1.1em;
-width: 18vw;
+height: 1.1rem;
+width: auto;
 margin: 0px auto;
 }
 
+/*elements pied de page */  
+footer {
+  background-color: #579C87;
+  line-height: 3rem;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+.footer__left{
+  padding-left: 1rem;
+  text-decoration: none;
+  color: #fdcb46;
+}
+
+.footer__right{
+  padding-right: 1rem;
+  text-decoration: none;
+  color: #fdcb46;
+}
 /* Animation point sur prochainement */
 
 .points:after {
@@ -255,10 +258,6 @@ margin: 0px auto;
 
 
 
-
-
-
-
 .zoom2 {
   overflow: hidden;
   cursor: pointer;
@@ -277,11 +276,8 @@ margin: 0px auto;
 
 
   header {
-  
-    letter-spacing: -0.2rem;
-    line-height: 2rem;
-    font-family: "Montserrat", sans-serif; 
-    font-size: 1.2rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
   
    } 
  
@@ -289,7 +285,7 @@ margin: 0px auto;
   
   .grid-1 {
    display: block;
-   max-width: 85%;    
+   max-width: 70%;    
   }
         
 
@@ -321,4 +317,17 @@ margin: 0px auto;
 .palette{
   height: 20rem;
 }
+.zoom2:hover {
+   transform: scale(1.3);
+}
+.soon{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.soon p {
+  
+
+  }
+footer{
+  line-height: 2rem; 
 }
