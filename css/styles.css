@@ -2,6 +2,8 @@ body {
     margin: 0px;
   }
 
+
+
 header {
   background-color: #579C87;
   color: #fdcb46;
@@ -17,6 +19,11 @@ header h1 {
    
   }
 
+  a, a:hover, a:visited, a:active
+  {
+    color:#fdcb46;
+    text-decoration:none;
+  }
 
 .conteneur{
   width: 90%;

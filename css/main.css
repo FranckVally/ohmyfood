@@ -3,7 +3,11 @@ body {
    margin: 0;
  
    }
-
+   a, a:hover, a:visited, a:active
+   {
+     color:#fdcb46;
+     text-decoration:none;
+   }
 header {
   
   display: flex;
@@ -53,7 +57,7 @@ footer {
   grid-template-columns:1fr 1fr;
   grid-gap: 5%;
   grid-template-rows: 1fr 1fr;
-  max-width: 60%;
+  max-width: 65%;
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin: auto;
@@ -65,10 +69,6 @@ footer {
 
 
 /* items */
-
-
-
-
 
 .note{
   grid-column-start: 1; 
@@ -114,7 +114,7 @@ footer {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: rgb(236, 236, 236);
   text-align: center;
-
+  padding: 4rem 0rem 4rem;
  
   }
 
@@ -147,7 +147,7 @@ footer {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: #fff5fe;
   text-align: center;
- 
+  padding: 4rem 0rem 4rem;
   }
   
   .chic p {
@@ -179,7 +179,7 @@ footer {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: rgb(236, 236, 236);
   text-align: center;
-
+  padding: 4rem 0rem 4rem;
  
   }
 
@@ -206,7 +206,7 @@ footer {
 
 .soon{
     display: flex;
-    
+    margin-top: 2rem;
   }
 
 
@@ -275,41 +275,50 @@ margin: 0px auto;
 
 @media screen and (max-width: 767px) {
 
-  @viewport {
-    width: device-width; /* largeur du viewport */
-    
+
+  header {
+  
+    letter-spacing: -0.2rem;
+    line-height: 2rem;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 1.2rem;
+  
+   } 
  
 
   
   .grid-1 {
    display: block;
-       
+   max-width: 85%;    
   }
         
-.soon{
-  grid-column-start: 3; 
-  grid-column-end:span 2;
-  grid-row-start:4;
-  display: flex;
-  margin: auto;
 
+
+/* menu  */
+
+.note{
+  height: 20rem;
 }
 
+.notemusic{
+  max-width: 10%;
+    }
+
+}
+.delice{
+   height: 20rem;
+  }
 
 
-.soon p {
-display: inline-block;
-text-align: center;
-padding: 0.5em;
-font-family: "Montserrat", sans-serif;
-color: #FDCB46;
-font-size: 2vw;
-background-color: #579C87;
-border-radius: 10px;
-height: 2em;
-width: 20vw;
-margin: 0px auto;
+.delice p {
+    font-size: 1.5em; 
+ }
+
+.chic{
+  height: 20rem;
 }
 
-
-        }
+.palette{
+  height: 20rem;
+}
+}
