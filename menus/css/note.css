@@ -1,0 +1,181 @@
+html {
+    font-size: 16px;
+  }
+body {
+   background: #fbfbfb;
+   margin: 0;
+    
+ 
+   }
+   a, a:hover, a:visited, a:active
+   {
+     color:#fdcb46;
+     text-decoration:none;
+   }
+header {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #579C87;
+  color: #fdcb46;
+  text-align: center;
+  letter-spacing: -0.2rem;
+  line-height: 3rem;
+  font-family: "Montserrat", sans-serif; 
+  font-size: 1.6rem;
+ width: auto;
+ }
+ 
+ h2{
+ 
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif; 
+    margin: 2rem;
+ }
+ 
+ .gridmenu {
+    
+        display: grid;
+        grid-template-columns:1fr 2fr 1fr;
+        grid-template-rows: auto;
+         
+        max-width: 65%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin: auto;
+        align-content: center;
+        padding: 5rem;
+
+    box-shadow: 0px 0px 6px 6px #e7e2e2;
+    -webkit-box-shadow: 0px 0px 6px 6px #e7e2e2;
+    -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
+    background-color: #FCDFDB;
+    font-family: "Kalam", cursive; 
+    
+}
+  
+
+.nomrestaurent{
+
+grid-column: 2;
+grid-row: 1;
+text-align: center;
+margin-bottom: 2rem;
+    }
+
+.logorestaurent{
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+h3{
+    font-family: "Devonshire", cursive;
+    font-size: 2rem;
+    margin: 0;
+}
+    
+h4{
+    grid-column:2;
+    grid-row: 2;
+    text-align: center;
+    display: inline;
+    font-size: 2rem;
+    margin: 0;
+}  
+
+.gauche{
+    grid-column:1;
+    grid-row: 2;
+    display: inline;
+    margin: auto;
+    max-width: 100%;
+}
+.droite{
+    grid-column:3;
+    grid-row: 2;
+    display: inline;
+    margin: auto;
+    max-width: 100%;
+
+}
+
+
+.liste_entrée
+{
+    grid-column: 1/ span 3;
+    grid-row: 3;
+    }
+.liste_entrée-prix{
+    grid-column: 3;
+    grid-row: 3;
+    text-align: right;
+ 
+
+}
+ul
+{
+ list-style-type: none;
+ font-size:1.3em;
+ padding: 0;
+ }
+ li
+{
+margin:1rem;
+}
+/*elements pied de page */  
+footer {
+    background-color: #579C87;
+    line-height: 3rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    
+  }
+  
+  .footer__left{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: #fdcb46;
+  }
+  
+  .footer__right{
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #fdcb46;
+
+}
+@media screen and (max-width: 1005px){
+    html {
+        font-size: 12px;
+      }  
+
+.gridmenu {
+    max-width: 88%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding: 1rem;
+}
+}
+@media screen and (max-width: 767px){
+    html {
+        font-size: 12px;
+      }  
+
+.gridmenu {
+    background-color: lightcoral;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding: 1rem;
+    min-width: 40rem;
+
+}
+}
+

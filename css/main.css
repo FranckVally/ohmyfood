@@ -62,7 +62,7 @@ header {
   margin-left: auto;
   margin-right: auto;
    }
-  .note h3 {
+  .note h2 {
     font-family: "Kalam", cursive;
     font-size: 1.5rem;
     padding: 0.5rem;
@@ -91,7 +91,7 @@ header {
  
   }
 
-  .delice h3 {
+  .delice h2 {
     font-family: "Kalam", cursive;
     font-weight: normal;
     font-size: 1.5rem;
@@ -133,7 +133,7 @@ header {
    
 }
 
-.chic h3 {
+.chic h2 {
   font-family: "Source Serif Pro", serif;
   font-weight: normal;
   font-size: 1.5rem;
@@ -156,7 +156,7 @@ header {
  
   }
 
-.palette h3 {
+.palette h2 {
    font-family: "Kalam", cursive;
    font-weight: normal;
    font-size: 1.5rem;
@@ -199,32 +199,32 @@ background-color: #579C87;
 border-radius: 10px;
 height: 1.1rem;
 width: auto;
-margin: 0px auto;
+margin: 1rem auto;
+padding: 1.2rem;
 }
 
 /*elements pied de page */  
 footer {
-  background-color: #579C87;
-  line-height: 3rem;
+   background-color: #579C87;
   display: flex;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   
 }
 
 .footer__left{
-  padding-left: 1rem;
+  
+  padding: 1rem;
   text-decoration: none;
   color: #fdcb46;
 }
 
 .footer__right{
-  padding-right: 1rem;
+  padding: 1rem;
   text-decoration: none;
   color: #fdcb46;
 }
@@ -320,6 +320,31 @@ footer {
 .zoom2:hover {
    transform: scale(1.3);
 }
+.soon{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.soon p {
+  
+
+  }
+footer{
+  line-height: 2rem; 
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+
+  header {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  
+  } 
+ 
+
+ 
 .soon{
   margin-top: 1rem;
   margin-bottom: 3rem;
