@@ -38,7 +38,7 @@ header {
  .gridmenu {
     
         display: grid;
-        grid-template-columns:1fr 2fr 1fr;
+        grid-template-columns:2fr 1fr 2fr;
         grid-template-rows: auto;
          
         max-width: 65%;
@@ -59,7 +59,7 @@ header {
 
 .nomrestaurent{
 
-grid-column: 2;
+grid-column: 1/span3;
 grid-row: 1;
 text-align: center;
 margin-bottom: 2rem;
@@ -89,41 +89,41 @@ h3{
 }  
 
 .gauche{
-    grid-column:1/ span 2;
+    grid-column:1;
     grid-row: 2;
     display: inline;
     margin:auto auto auto 0;
     max-width: 100%;
 }
 .droite{
-    grid-column: 2/span3;
+    grid-column: 3;
     grid-row: 2;
     display: inline;
     margin:  auto 0 auto  auto;
     max-width: 100%;
 }
 .gauche2{
-    grid-column:1/ span 2;
+    grid-column:1;
     grid-row: 4;
     display: inline;
     margin:auto auto auto 0;
     max-width: 100%;
 }
 .droite2{
-    grid-column:2/span3;
+    grid-column:3;
     grid-row: 4;
     display: inline;
     margin:  auto 0 auto  auto;
     max-width: 100%;
 }
 .liste_entrée{
-    grid-column: 1/ span 3;
+    grid-column: 1/span2;
     grid-row: 3;
 }
 
 .liste_plats
 {
-    grid-column: 1/ span 3;
+    grid-column: 1/span2;
     grid-row: 5;
     }
 .liste_prix{
@@ -198,11 +198,11 @@ footer {
       }  
 
 .gridmenu {
-    background-color: lightcoral;
+   
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding: 1rem;
-    min-width: 40rem;
+    min-width: 42rem;
 
 }
 }
