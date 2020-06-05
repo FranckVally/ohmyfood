@@ -186,7 +186,7 @@ margin:1rem;
     grid-row: 7;
         }
 
-/*elements pied de page */  
+/*========================pied =====================================*/  
 footer {
     background-color: #579C87;
     line-height: 3rem;
@@ -202,10 +202,6 @@ footer {
   }
   
  
-
-    
-    
-  
   .footer__left{
     padding-left: 1rem;
     text-decoration: none;
@@ -218,6 +214,61 @@ footer {
     color: #fdcb46;
 
 }
+/******************************************amimation**************************/
+@keyframes wiggle {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-2px, 0px) rotate(-2deg);
+    }
+
+    20% {
+        transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    30% {
+        transform: translate(2px, 0px) rotate(2deg);
+    }
+
+    40% {
+        transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(2px, 0px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(2px, 0px) rotate(2deg);
+    }
+
+    80% {
+        transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    90% {
+        transform: translate(2px, -2px) rotate(-1deg);
+    }
+
+    100% {
+        transform: translate(0px,0px) rotate(0deg);
+    }
+}
+  
+.footer__left:hover  {
+    animation: wiggle 0.4s infinite;
+}
+.footer__right:hover {
+    animation: wiggle 0.4s infinite;
+}
+/********************************medi***************************/
+
 @media screen and (max-width: 1005px){
     html {
         font-size: 12px;
