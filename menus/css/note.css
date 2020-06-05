@@ -24,7 +24,7 @@ header {
   line-height: 3rem;
   font-family: "Montserrat", sans-serif; 
   font-size: 1.6rem;
- width: auto;
+ width: 100%;
  }
  
  h2{
@@ -45,6 +45,8 @@ header {
         padding-top: 2rem;
         padding-bottom: 2rem;
         margin: auto;
+        margin-bottom: 7rem;
+
         align-content: center;
         padding: 5rem;
         color: #3c1218;
@@ -116,22 +118,31 @@ h3{
     margin:  auto 0 auto  auto;
     max-width: 100%;
 }
+.gauche3{
+    grid-column:1;
+    grid-row: 6;
+    display: inline;
+    margin:auto auto auto 0;
+    max-width: 100%;
+}
+.droite3{
+    grid-column:3;
+    grid-row: 6;
+    display: inline;
+    margin:  auto 0 auto  auto;
+    max-width: 100%;
+}
 .liste_entrée{
     grid-column: 1/span2;
     grid-row: 3;
 }
 
-.liste_plats
-{
-    grid-column: 1/span2;
-    grid-row: 5;
-    }
+
 .liste_prix{
     grid-column: 3;
     grid-row: 3;
     text-align: right;
     font-weight: bold;
- 
 
 }
 ul
@@ -144,6 +155,37 @@ ul
 {
 margin:1rem;
 }
+.plats{
+    grid-column:2;
+    grid-row: 4;
+    text-align: center;
+    display: inline;
+    font-size: 2rem;
+    margin: 0;
+} 
+.liste_plats{
+    grid-column: 1/span2;
+    grid-row: 5;
+        }
+.prix_plats{
+    grid-column: 3;
+    grid-row: 5;
+    text-align: right;
+    font-weight: bold;
+}
+.desserts{
+    grid-column:2;
+    grid-row: 6;
+    text-align: center;
+    display: inline;
+    font-size: 2rem;
+    margin: 0;
+} 
+.liste_desserts{
+    grid-column: 1/span2;
+    grid-row: 7;
+        }
+
 /*elements pied de page */  
 footer {
     background-color: #579C87;
@@ -159,15 +201,11 @@ footer {
     
   }
   
-  .plats{
-    grid-column:2;
-    grid-row: 4;
-    text-align: center;
-    display: inline;
-    font-size: 2rem;
-    margin: 0;  
-   
-  }
+ 
+
+    
+    
+  
   .footer__left{
     padding-left: 1rem;
     text-decoration: none;
@@ -193,8 +231,10 @@ footer {
 }
 }
 @media screen and (max-width: 767px){
-    html {
+html {
         font-size: 12px;
+        min-width: 35rem;
+
       }  
 
 .gridmenu {
@@ -202,7 +242,7 @@ footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding: 1rem;
-    min-width: 42rem;
+   
 
 }
 }
