@@ -202,13 +202,13 @@ footer {
   }
   
  
-  .footer__left{
+  .footer_left{
     padding-left: 1rem;
     text-decoration: none;
     color: #fdcb46;
   }
   
-  .footer__right{
+  .footer_right{
     padding-right: 1rem;
     text-decoration: none;
     color: #fdcb46;
@@ -261,13 +261,13 @@ footer {
     }
 }
   
-.footer__left:hover  {
+.footer_left:hover  {
     animation: wiggle 0.4s infinite;
 }
-.footer__right:hover {
+.footer_right:hover {
     animation: wiggle 0.4s infinite;
 }
-/********************************medi***************************/
+/********************************media***************************/
 
 @media screen and (max-width: 1005px){
     html {
