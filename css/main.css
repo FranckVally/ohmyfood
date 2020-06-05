@@ -350,7 +350,8 @@ footer {
   max-width: 10%;
     }
 
-}
+
+
 .delice {
    height: 20rem;
   }
@@ -374,32 +375,8 @@ footer {
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
-.soon p {
-  
-
-  }
-footer{
-  line-height: 2rem; 
-}
-
-
-
-@media screen and (max-width: 767px) {
-
-
-  header {
-  line-height: 2rem;
-  font-size: 1.2rem;
-  
-  } 
- 
-
- 
-.soon{
-  margin-top: 1rem;
-  margin-bottom: 3rem;
-}
 
 footer{
   line-height: 2rem; 
+}
 }
