@@ -184,8 +184,23 @@ margin:1rem;
 .liste_desserts{
     grid-column: 1/span2;
     grid-row: 7;
-        }
+}
 
+
+.basmenu{
+    grid-column: 1/span3;
+    grid-row: 8;
+    text-align: center;
+    font-family: "Devonshire", cursive;
+    font-size: 3rem;
+       }
+ .logobas{
+     height: 3rem;
+     vertical-align: middle;
+     margin: 1rem 1rem;
+
+ }       
+ 
 /*========================pied =====================================*/  
 footer {
     background-color: #579C87;
@@ -267,6 +282,21 @@ footer {
 .footer_right:hover {
     animation: wiggle 0.4s infinite;
 }
+
+.souligne:after {
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 0.2rem;
+    background: #3c1218;
+    transition: width 0.6s ease 0s, left 0.6s ease 0s;
+    width: 0;
+  }
+  
+  .souligne:hover:after {
+    width: 100%;
+   
+  }
 /********************************media***************************/
 
 @media screen and (max-width: 1005px){
