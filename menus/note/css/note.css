@@ -38,7 +38,7 @@ header {
  .gridmenu {
     
         display: grid;
-        grid-template-columns:2fr 1fr 2fr;
+        grid-template-columns:1fr 1fr 1fr;
         grid-template-rows: auto;
          
         max-width: 65%;
@@ -84,10 +84,10 @@ h3{
 .entrée{
     grid-column:2;
     grid-row: 2;
-    text-align: center;
+    margin: auto;
     display: inline;
     font-size: 2rem;
-    margin: 0;
+   
 }  
 
 .gauche{
@@ -158,10 +158,9 @@ margin:1rem;
 .plats{
     grid-column:2;
     grid-row: 4;
-    text-align: center;
+    margin: auto;
     display: inline;
     font-size: 2rem;
-    margin: 0;
 } 
 .liste_plats{
     grid-column: 1/span2;
@@ -176,10 +175,10 @@ margin:1rem;
 .desserts{
     grid-column:2;
     grid-row: 6;
-    text-align: center;
+    margin: auto;
     display: inline;
     font-size: 2rem;
-    margin: 0;
+
 } 
 .liste_desserts{
     grid-column: 1/span2;
@@ -314,7 +313,7 @@ footer {
 @media screen and (max-width: 767px){
 html {
         font-size: 12px;
-        min-width: 35rem;
+        min-width: 40rem;
 
       }  
 
