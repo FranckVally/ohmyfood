@@ -1,0 +1,373 @@
+html {
+    font-size: 16px;
+  }
+body {
+   background: #fbfbfb;
+   margin: 0;
+    
+ 
+   }
+   a, a:hover, a:visited, a:active
+   {
+     color:#fdcb46;
+     text-decoration:none;
+   }
+header {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #579C87;
+  color: #fdcb46;
+  text-align: center;
+  letter-spacing: -0.2rem;
+  line-height: 3rem;
+  font-family: "Montserrat", sans-serif; 
+  font-size: 1.6rem;
+ width: 100%;
+ }
+ 
+ h2{
+ 
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif; 
+    margin: 2rem;
+ }
+ 
+ .gridmenu {
+    
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: auto;
+     
+    max-width: 65%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    margin-bottom: 7rem;
+        margin-bottom: 7rem;
+
+        align-content: center;
+        padding: 5rem 2rem 8rem 2rem;
+        color: #3c1218;
+    box-shadow: 0px 0px 6px 6px #e7e2e2;
+    -webkit-box-shadow: 0px 0px 6px 6px #e7e2e2;
+    -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
+    background-color:#EDEFEF;
+    font-family: "Kalam", cursive
+    
+    
+}
+  
+
+.nomrestaurent{
+
+grid-column: 1/span3;
+grid-row: 1;
+text-align: center;
+margin-bottom: 2rem;
+    }
+
+.logorestaurent{
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+h3{
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    margin: 0;
+    font-weight: lighter;
+    background: -webkit-linear-gradient(360deg, #112edb, #0889fb);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+    
+.entrée{
+    grid-column:2;
+    grid-row: 2;
+    margin: auto;
+    display: inline;
+    font-size: 1.3rem;
+   
+}  
+
+.gauche{
+    grid-column:1;
+    grid-row: 2;
+    display: inline;
+    margin:auto auto auto 0;
+    max-width: 100%;
+}
+.droite{
+    grid-column: 3;
+    grid-row: 2;
+    display: inline;
+    margin:  auto 0 auto  auto;
+    max-width: 100%;
+}
+.gauche2{
+    grid-column:1;
+    grid-row: 4;
+    display: inline;
+    margin:auto auto auto 0;
+    max-width: 100%;
+}
+.droite2{
+    grid-column:3;
+    grid-row: 4;
+    display: inline;
+    margin:  auto 0 auto  auto;
+    max-width: 100%;
+}
+.gauche3{
+    grid-column:1;
+    grid-row: 6;
+    display: inline;
+    margin:auto auto auto 0;
+    max-width: 100%;
+}
+.droite3{
+    grid-column:3;
+    grid-row: 6;
+    display: inline;
+    margin:  auto 0 auto  auto;
+    max-width: 100%;
+}
+.liste_entrée{
+    grid-column: 1/span2;
+    grid-row: 3;
+}
+
+
+.prix_entrée{
+    grid-column: 3;
+    grid-row: 3;
+    text-align: right;
+    margin-right: 4rem;
+    
+
+}
+ul
+{
+ list-style-type: none;
+ font-size:1.3em;
+ padding: 0;
+ }
+ li
+{
+margin:1rem;
+}
+.plats{
+    grid-column:2;
+    grid-row: 4;
+    margin: auto;
+    display: inline;
+    font-size: 1.3rem;
+} 
+.liste_plats{
+    grid-column: 1/span2;
+    grid-row: 5;
+        }
+.prix_plats{
+    grid-column: 3;
+    grid-row: 5;
+    text-align: right;
+    margin-right: 4rem;
+    
+}
+.desserts{
+    grid-column:2;
+    grid-row: 6;
+    margin: auto;
+    display: inline;
+    font-size: 1.3rem;
+
+} 
+.liste_desserts{
+    grid-column: 1/span2;
+    grid-row: 7;
+}
+.prix_desserts{
+    grid-column: 3;
+    grid-row: 7;
+    text-align: right;
+    margin-right: 4rem;
+    
+}
+
+
+.basmenu{
+    grid-column: 1/span3;
+    grid-row: 8;
+    text-align: center;
+    font-family: "Devonshire", cursive;
+    font-size: 3rem;
+       }
+ .logobas{
+     height: 3rem;
+     vertical-align: middle;
+     margin: 1rem 1rem;
+
+ }       
+ 
+/*========================pied =====================================*/  
+footer {
+    background-color: #579C87;
+    line-height: 3rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    
+  }
+  
+ 
+  .footer_left{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: #fdcb46;
+  }
+  
+  .footer_right{
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #fdcb46;
+
+}
+/******************************************amimation**************************/
+@keyframes wiggle {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-2px, 0px) rotate(-2deg);
+    }
+
+    20% {
+        transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    30% {
+        transform: translate(2px, 0px) rotate(2deg);
+    }
+
+    40% {
+        transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(2px, 0px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(2px, 0px) rotate(2deg);
+    }
+
+    80% {
+        transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    90% {
+        transform: translate(2px, -2px) rotate(-1deg);
+    }
+
+    100% {
+        transform: translate(0px,0px) rotate(0deg);
+    }
+}
+  
+.footer_left:hover  {
+    animation: wiggle 0.4s infinite;
+}
+.footer_right:hover {
+    animation: wiggle 0.4s infinite;
+}
+
+.souligne_entrée:after {
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 0.2rem;
+    background:#0228dd;
+    transition: width 0.6s ease 0s, left 0.6s ease 0s;
+    width: 0;
+  }
+  
+  .souligne_entrée:hover:after {
+    width: 100%;
+   
+  }
+  .souligne_plats:after {
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 0.2rem;
+    background: #0670f3;
+    transition: width 0.6s ease 0s, left 0.6s ease 0s;
+    width: 0;
+  }
+  
+  .souligne_plats:hover:after {
+    width: 100%;
+   
+  }
+  
+  .souligne_desserts:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-bottom: 0.2rem solid #229df9;
+    transform: scaleX(0);
+    transition: 0.5s;
+    transform-origin: 0% 50%;
+    
+  }
+  
+  .souligne_desserts:hover:after {
+    transform: scaleX(1); 
+    }
+/********************************media***************************/
+
+@media screen and (max-width: 1005px){
+    html {
+        font-size: 12px;
+      }  
+
+.gridmenu {
+    max-width: 88%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding: 1rem;
+}
+}
+@media screen and (max-width: 767px){
+html {
+        font-size: 12px;
+        min-width: 40rem;
+
+      }  
+
+.gridmenu {
+   
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding: 1rem;
+   
+
+}
+}
+
