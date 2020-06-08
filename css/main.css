@@ -27,6 +27,7 @@ header {
 /* grille */
 .grid-1 {
   display: grid;
+
   grid-template-columns:1fr 1fr;
   grid-gap: 5%;
   grid-template-rows: auto;
