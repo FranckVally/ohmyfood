@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    min-width: 65rem;
   }
 body {
    background: #fbfbfb;
@@ -46,11 +47,11 @@ header {
     padding-bottom: 2rem;
     margin: auto;
     margin-bottom: 7rem;
-        margin-bottom: 7rem;
+    margin-bottom: 7rem;
 
-        align-content: center;
-        padding: 5rem 2rem 8rem 2rem;
-        color: #3c1218;
+    align-content: center;
+    padding: 5rem 2rem 8rem 2rem;
+    color: #3c1218;
     box-shadow: 0px 0px 6px 6px #e7e2e2;
     -webkit-box-shadow: 0px 0px 6px 6px #e7e2e2;
     -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;

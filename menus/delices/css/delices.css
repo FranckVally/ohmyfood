@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    min-width: 65rem;
   }
 body {
    background: #fbfbfb;
@@ -92,6 +93,7 @@ h3{
     margin: auto;
     display: inline;
     font-size: 1.3rem;
+    font-weight: lighter;
    
 }  
 
@@ -140,6 +142,7 @@ h3{
 .liste_entrée{
     grid-column: 1/span2;
     grid-row: 3;
+    margin-left: 4rem;
 }
 
 
@@ -148,35 +151,38 @@ h3{
     grid-row: 3;
     text-align: right;
     margin-right: 4rem;
-    
-
+    font-size:1.2rem;   
 }
+
 ul
 {
  list-style-type: none;
- font-size:1.3em;
  padding: 0;
  }
  li
 {
 margin:1rem;
 }
+
 .plats{
     grid-column:2;
     grid-row: 4;
     margin: auto;
     display: inline;
     font-size: 1.3rem;
+    font-weight: lighter;
 } 
 .liste_plats{
     grid-column: 1/span2;
     grid-row: 5;
+    margin-left: 4rem;
         }
 .prix_plats{
     grid-column: 3;
     grid-row: 5;
     text-align: right;
     margin-right: 4rem;
+    font-size:1.2rem;
     
 }
 .desserts{
@@ -185,17 +191,19 @@ margin:1rem;
     margin: auto;
     display: inline;
     font-size: 1.3rem;
-
+    font-weight: lighter;
 } 
 .liste_desserts{
     grid-column: 1/span2;
     grid-row: 7;
+    margin-left: 4rem;
 }
 .prix_desserts{
     grid-column: 3;
     grid-row: 7;
     text-align: right;
     margin-right: 4rem;
+    font-size:1.2rem;
     
 }
 

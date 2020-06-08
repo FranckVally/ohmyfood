@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    min-width: 65rem;
   }
 body {
    background: #fbfbfb;
@@ -42,6 +43,7 @@ header {
         grid-template-rows: auto;
          
         max-width: 65%;
+        min-width: 60rem;
         padding-top: 2rem;
         padding-bottom: 2rem;
         margin: auto;
@@ -50,7 +52,8 @@ header {
         align-content: center;
         padding: 5rem 2rem 8rem 2rem;
         font-family: "Source Serif Pro", serif;
-    box-shadow: 0px 0px 6px 6px #e7e2e2;
+        
+        box-shadow: 0px 0px 6px 6px #e7e2e2;
     -webkit-box-shadow: 0px 0px 6px 6px #e7e2e2;
     -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
     background-color: #FFF5FE;
@@ -91,7 +94,7 @@ h3{
     display: inline;
     color: #C67412;
     font-size: 1.5rem;
-    
+      
 }  
 
 .gauche{
@@ -141,8 +144,7 @@ h3{
     grid-row: 3;
     color: #C67412;
     margin: 2rem 0 2rem;
-   
-
+    margin: 2rem 2rem 2rem;
 }
 
 
@@ -151,6 +153,7 @@ h3{
     grid-row: 3;
     text-align: center;
     color: #C67412;
+    margin: 2rem 0 2rem;
    
 
 }
@@ -158,11 +161,13 @@ ul
 {
  list-style-type: none;
  padding: 0;
+ 
  }
  li
 {
 margin:1rem;
 font-size: 1.2rem;
+
 }
 .plats{
     grid-column:2;
@@ -177,13 +182,14 @@ font-size: 1.2rem;
     grid-column: 1/span2;
     grid-row: 5;
     color: #A56799;
-    margin: 2rem 0 2rem;
+    margin: 2rem 2rem 2rem;
         }
 .prix_plats{
     grid-column: 3;
     grid-row: 5;
     text-align: center;
     color: #A56799;
+    margin: 2rem 2rem 2rem;
 }
 .desserts{
     grid-column:2;
@@ -191,13 +197,14 @@ font-size: 1.2rem;
     font-size: 1.5rem;  
     margin: auto;
     color: #6E4CCC;
+    
    
 } 
 .liste_desserts{
     grid-column: 1/span2;
     grid-row: 7;    
     color: #6E4CCC;
-    margin: 2rem 0 2rem;
+    margin: 2rem  2rem;
 }
 
      
@@ -345,7 +352,7 @@ footer {
 @media screen and (max-width: 767px){
 html {
         font-size: 12px;
-        min-width: 35rem;
+        min-width: 41rem;
       }  
 
 .gridmenu {
