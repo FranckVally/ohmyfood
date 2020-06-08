@@ -192,8 +192,8 @@ header {
 .soon{
 
     display: flex;
-    padding-bottom: 3rem;
-    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    padding-top: 1rem;
      margin: auto;
   }
 
@@ -333,7 +333,8 @@ footer {
   animation: wiggle 0.4s infinite;
 }  
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 900px) {
  
 
   header {
