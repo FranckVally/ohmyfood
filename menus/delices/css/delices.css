@@ -350,16 +350,18 @@ footer {
     }
 /********************************media***************************/
 
+
 @media screen and (max-width: 1005px){
     html {
         font-size: 12px;
       }  
 
 .gridmenu {
-    max-width: 88%;
+    max-width: 95%;
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding: 1rem;
+    margin: 1rem;
 }
 }
 @media screen and (max-width: 767px){
@@ -378,4 +380,3 @@ html {
 
 }
 }
-

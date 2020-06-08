@@ -43,7 +43,7 @@ header {
         grid-template-rows: auto;
          
         max-width: 65%;
-        min-width: 60rem;
+       
         padding-top: 2rem;
         padding-bottom: 2rem;
         margin: auto;
@@ -337,27 +337,33 @@ footer {
     }
 /********************************media***************************/
 
+
 @media screen and (max-width: 1005px){
     html {
         font-size: 12px;
       }  
 
 .gridmenu {
-    max-width: 88%;
+    max-width: 95%;
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding: 1rem;
+    margin: 1rem;
 }
 }
 @media screen and (max-width: 767px){
 html {
         font-size: 12px;
-        min-width: 41rem;
+        min-width: 40rem;
+
       }  
 
 .gridmenu {
+   
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding: 1rem;
-    }
+   
+
+}
 }

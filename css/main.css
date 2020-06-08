@@ -1,3 +1,6 @@
+html{
+  width: 100%;
+}
 body {
    background: #fbfbfb;
    margin: 0;
@@ -20,7 +23,8 @@ header {
   line-height: 3rem;
   font-family: "Montserrat", sans-serif; 
   font-size: 1.6rem;
- width: auto;
+ 
+
  }
 
 
@@ -53,7 +57,8 @@ header {
   background-color: #FCDFDB;
   text-align: center;
   padding: 3rem 0rem 3rem;
-  min-width: 22rem; 
+  min-width: 22rem;
+  cursor: pointer; 
 }
 
   .notemusic{
@@ -89,6 +94,8 @@ header {
   text-align: center;
   padding: 3rem 0rem 3rem;
   min-width: 22rem;
+  cursor: pointer;
+
 
  
   }
@@ -124,6 +131,8 @@ header {
   text-align: center;
   padding: 3rem 0rem 3rem;
   min-width: 22rem;
+  cursor: pointer;
+
 
   }
   
@@ -158,6 +167,8 @@ header {
   text-align: center;
   padding: 3rem 0rem 3rem;
   min-width: 22rem;
+  cursor: pointer;
+
  
   }
 
@@ -264,7 +275,6 @@ footer {
 
 .zoom2 {
   overflow: hidden;
-  cursor: pointer;
   transition: transform 0.4s ease-in-out 0s;
 }
 
@@ -327,17 +337,15 @@ footer {
   animation: wiggle 0.4s infinite;
 }  
 
-@media screen and (max-width: 767px) {
-
+@media screen and (max-width: 768px) {
+ 
 
   header {
   line-height: 2rem;
   font-size: 1.2rem;
   
-   } 
- 
-
   
+   } 
   .grid-1 {
    display: block;
    max-width: 70%;
