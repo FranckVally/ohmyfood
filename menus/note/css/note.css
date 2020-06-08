@@ -87,7 +87,7 @@ h3{
     grid-row: 2;
     margin: auto;
     display: inline;
-    font-size: 2rem;
+    font-size: 1.8rem;
    
 }  
 
@@ -161,7 +161,7 @@ margin:1rem;
     grid-row: 4;
     margin: auto;
     display: inline;
-    font-size: 2rem;
+    font-size: 1.8rem;
 } 
 .liste_plats{
     grid-column: 1/span2;
@@ -178,7 +178,7 @@ margin:1rem;
     grid-row: 6;
     margin: auto;
     display: inline;
-    font-size: 2rem;
+    font-size: 1.8rem;
 
 } 
 .liste_desserts{

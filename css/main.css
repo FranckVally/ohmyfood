@@ -56,8 +56,7 @@ header {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: #FCDFDB;
   text-align: center;
-  padding: 3rem 0rem 3rem;
-  min-width: 22rem;
+  padding: 5rem 0rem 5rem;
   cursor: pointer; 
 }
 
@@ -92,8 +91,7 @@ header {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: rgb(236, 236, 236);
   text-align: center;
-  padding: 3rem 0rem 3rem;
-  min-width: 22rem;
+  padding: 5rem 0rem 5rem;
   cursor: pointer;
 
 
@@ -129,8 +127,7 @@ header {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: #fff5fe;
   text-align: center;
-  padding: 3rem 0rem 3rem;
-  min-width: 22rem;
+  padding: 5rem 0rem 5rem;
   cursor: pointer;
 
 
@@ -165,10 +162,9 @@ header {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: rgb(236, 236, 236);
   text-align: center;
-  padding: 3rem 0rem 3rem;
-  min-width: 22rem;
+  padding: 5rem 0rem 5rem;
   cursor: pointer;
-
+  
  
   }
 
@@ -281,7 +277,7 @@ footer {
 
 .zoom2:hover {
   transition-duration: 0.5s;
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 @keyframes wiggle {
