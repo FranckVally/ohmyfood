@@ -192,21 +192,27 @@ header {
   margin: auto;
 }
 
+button{
+  border: none;
+  background:none;
+  outline: none;
+
+}
 
 
 .soon .points {
   display: inline-block;
   text-align: center;
-  padding: 0.5em;
   font-family: "Montserrat", sans-serif;
   color: #FDCB46;
   font-size: 1rem;
   background-color: #579C87;
   border-radius: 10px;
-  height: 1.1rem;
-  width: auto;
+   width: auto;
   margin: 1rem auto;
   padding: 1.2rem;
+  cursor: pointer;
+  
 }
 
 /*elements pied de page */  
