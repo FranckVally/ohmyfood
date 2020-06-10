@@ -2,30 +2,29 @@ html {
     font-size: 16px;
     min-width: 65rem;
   }
-body {
-   background: #fbfbfb;
-   margin: 0;
-    
- 
-   }
-   a, a:hover, a:visited, a:active
-   {
-     color:#fdcb46;
-     text-decoration:none;
-   }
-header {
   
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #579C87;
-  color: #fdcb46;
-  text-align: center;
-  letter-spacing: -0.2rem;
-  line-height: 3rem;
-  font-family: "Montserrat", sans-serif; 
-  font-size: 1.6rem;
- width: 100%;
+body {
+    background: #fbfbfb;
+    margin: 0; 
+   }
+
+a, a:hover, a:visited, a:active{
+    color:#fdcb46;
+    text-decoration:none;
+   }
+
+header {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #579C87;
+    color: #fdcb46;
+    text-align: center;
+    letter-spacing: -0.2rem;
+    line-height: 3rem;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 1.6rem;
+    width: 100%;
  }
  
  h2{
@@ -37,38 +36,32 @@ header {
  }
  
  .gridmenu {
-    
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: auto;
-     
+    grid-template-rows: auto;     
     max-width: 65%;
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin: auto;
     margin-bottom: 7rem;
-        margin-bottom: 7rem;
-
-        align-content: center;
-        padding: 5rem 2rem 8rem 2rem;
-        color: #3c1218;
+    margin-bottom: 7rem;
+    align-content: center;
+    padding: 5rem 2rem 8rem 2rem;
+    color: #3c1218;
     box-shadow: 0px 0px 6px 6px #e7e2e2;
     -webkit-box-shadow: 0px 0px 6px 6px #e7e2e2;
     -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
     background-color:#EDEFEF;
-    font-family: "Kalam", cursive
-    
-    
+    font-family: "Kalam", cursive;    
 }
   
 
 .nomrestaurent{
-
-grid-column: 1/span3;
-grid-row: 1;
-text-align: center;
-margin-bottom: 2rem;
-    }
+    grid-column: 1/span3;
+    grid-row: 1;
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
 .logorestaurent{
     max-width: 20%;
@@ -93,8 +86,7 @@ h3{
     margin: auto;
     display: inline;
     font-size: 1.3rem;
-    font-weight: lighter;
-   
+    font-weight: lighter;  
 }  
 
 .gauche{
@@ -145,7 +137,6 @@ h3{
     margin-left: 4rem;
 }
 
-
 .prix_entrée{
     grid-column: 3;
     grid-row: 3;
@@ -182,9 +173,9 @@ margin:1rem;
     grid-row: 5;
     text-align: right;
     margin-right: 4rem;
-    font-size:1.2rem;
-    
+    font-size:1.2rem;    
 }
+
 .desserts{
     grid-column:2;
     grid-row: 6;
@@ -203,8 +194,7 @@ margin:1rem;
     grid-row: 7;
     text-align: right;
     margin-right: 4rem;
-    font-size:1.2rem;
-    
+    font-size:1.2rem;    
 }
 
 
@@ -219,10 +209,9 @@ margin:1rem;
      height: 3rem;
      vertical-align: middle;
      margin: 1rem 1rem;
-
  }       
  
-/*========================pied =====================================*/  
+/*========================pied de page=====================================*/  
 footer {
     background-color: #579C87;
     line-height: 3rem;
@@ -233,8 +222,7 @@ footer {
     right: 0;
     width: 100%;
     justify-content: space-between;
-    font-family: "Montserrat", sans-serif;
-    
+    font-family: "Montserrat", sans-serif;    
   }
   
  
@@ -248,9 +236,8 @@ footer {
     padding-right: 1rem;
     text-decoration: none;
     color: #fdcb46;
-
 }
-/******************************************amimation**************************/
+/******************************************amimation******************************************/
 @keyframes wiggle {
     0% {
         transform: translate(0px, 0px) rotate(0deg);
@@ -313,12 +300,10 @@ footer {
     transition: width 0.6s ease 0s, left 0.6s ease 0s;
     width: 0;
   }
-  
-  .souligne_entrée:hover:after {
+.souligne_entrée:hover:after {
     width: 100%;
-   
   }
-  .souligne_plats:after {
+.souligne_plats:after {
     background: none repeat scroll 0 0 transparent;
     content: "";
     display: block;
@@ -327,13 +312,10 @@ footer {
     transition: width 0.6s ease 0s, left 0.6s ease 0s;
     width: 0;
   }
-  
-  .souligne_plats:hover:after {
-    width: 100%;
-   
+.souligne_plats:hover:after {
+    width: 100%;   
   }
-  
-  .souligne_desserts:after {
+.souligne_desserts:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -342,7 +324,6 @@ footer {
     transform: scaleX(0);
     transition: 0.5s;
     transform-origin: 0% 50%;
-    
   }
   
   .souligne_desserts:hover:after {
@@ -353,7 +334,7 @@ footer {
 
 @media screen and (max-width: 1005px){
     html {
-        font-size: 12px;
+      font-size: 12px;
       }  
 
 .gridmenu {
@@ -362,21 +343,18 @@ footer {
     padding-bottom: 2rem;
     padding: 1rem;
     margin: 1rem;
+    }
 }
-}
+
 @media screen and (max-width: 767px){
 html {
         font-size: 12px;
         min-width: 40rem;
-
       }  
 
 .gridmenu {
-   
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding: 1rem;
-   
-
 }
 }
