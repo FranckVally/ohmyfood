@@ -287,18 +287,23 @@ footer {
     font-size: 3rem;
   }
 
+  h2 {
+    font-size: 5rem;  
+  }
+
   .gridmenu {
     max-width: 100%;
     padding: 1rem;
     margin: 0.5rem 0.5rem 0.5rem;
     margin-bottom: 3rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .entrée,
   .plats,
   .desserts {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    text-align: center;
   }
 
   .liste_entrée,
@@ -313,6 +318,10 @@ footer {
     
   }
 
+  .basmenu {
+   visibility: hidden;
+  }
+  
   footer {
     line-height: 5rem;
     font-size: 2rem;
