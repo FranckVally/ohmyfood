@@ -78,7 +78,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Kalam", cursive;
+    font-family: 'Kaushan Script',cursive;
   font-size: 4rem;
   margin: 0;
   font-weight: lighter;
@@ -156,7 +156,7 @@ li {
   justify-content: space-between;
 }
 .prix {
-  font-weight: bold;
+  font-weight: 900;
 }
 .plats {
   grid-column: 2;
