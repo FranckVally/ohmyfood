@@ -1,6 +1,5 @@
 html {
-  font-size: 16px;
-  min-width: 65rem;
+  display: block;
 }
 
 body {
@@ -55,7 +54,6 @@ h1 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin: auto;
-  margin-bottom: 7rem;
   margin-bottom: 7rem;
   align-content: center;
   padding: 5rem 2rem 8rem 2rem;
@@ -141,11 +139,7 @@ h2 {
   margin: auto 0 auto auto;
   max-width: 100%;
 }
-.liste_entrée {
-  grid-column: 1 / span 3;
-  grid-row: 3;
-  margin-left: 4rem;
-}
+
 
 ul {
   list-style-type: none;
@@ -156,6 +150,13 @@ li {
   display: flex;
   margin: 1rem;
   justify-content: space-between;
+}
+
+.liste_entrée {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+  margin-left: 4rem;
+
 }
 .prix {
   font-weight: bold;
@@ -319,56 +320,110 @@ footer {
 .souligne_desserts:hover:after {
   transform: scaleX(1);
 }
+
 /********************************media***************************/
-
-@media screen and (max-width: 900px) {
-  header {
-    line-height: 5rem;
-    font-size: 3rem;
-  }
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 5rem;
-  }
-
+@media screen and (max-width: 1300px) {
   .gridmenu {
-    max-width: 100%;
-    padding: 1rem;
-    margin: 1rem 1rem 4rem 1rem;
-    font-size: 2rem;
+    max-width: 75%;
   }
 
-  .entrée,
-  .plats,
-  .desserts {
-    font-size: 3rem;
-    text-align: center;
-  }
+  @media screen and (max-width: 900px) {
+    header {
+      line-height: 4rem;
+      font-size: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
 
-  .liste_entrée,
-  .liste_plats,
-  .liste_desserts {
-    text-align: center;
-  }
+    h2 {
+      font-size: 3rem;
+    }
 
-  li {
-    display: flex;
-    flex-direction: column;
-  }
+    .gridmenu {
+      max-width: 100%;
+      padding: 1rem;
+      margin: 1rem 1rem 4rem 1rem;
+      font-size: 2rem;
+    }
 
-  footer {
-    line-height: 5rem;
-    font-size: 2rem;
-  }
+    .entrée,
+    .plats,
+    .desserts {
+      font-size: 2.5rem;
+      text-align: center;
+    }
 
-  .footer_left {
-    padding-left: 2rem;
-  }
+    .liste_entrée,
+    .liste_plats,
+    .liste_desserts {
+      text-align: center;
+    }
 
-  .footer_right {
-    padding-right: 1.5rem;
+    li {
+      display: flex;
+      flex-direction: column;
+    }
+    ul {
+      font-size: 2rem;
+    }
+
+    .basmenu {
+      visibility: hidden;
+    }
+
+    footer {
+      line-height: 3rem;
+      font-size: 1rem;
+    }
+
+    .footer_left {
+      padding-left: 2rem;
+    }
+
+    .footer_right {
+      padding-right: 2rem;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    header {
+      line-height: 2rem;
+      font-size: 2rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .gridmenu {
+      max-width: 90%;
+      margin: 1rem 1rem 4rem 1rem;
+      font-size: 2rem;
+    }
+
+    .entrée,
+    .plats,
+    .desserts {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .liste_entrée,
+    .liste_plats,
+    .liste_desserts {
+      text-align: center;
+      margin: 0rem;
+    }
+
+    li {
+      display: flex;
+      flex-direction: column;
+    }
+    ul {
+      font-size: 1.3rem;
+    }
   }
 }
