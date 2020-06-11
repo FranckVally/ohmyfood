@@ -82,6 +82,7 @@ h2 {
   margin: auto;
   display: inline;
   font-size: 1.8rem;
+  text-align: center;
 }
 
 .gauche {
@@ -143,8 +144,8 @@ li {
   margin: 1rem;
   justify-content: space-between;
 }
-.prix{
-font-weight: bold;
+.prix {
+  font-weight: bold;
 }
 .plats {
   grid-column: 2;
@@ -152,6 +153,7 @@ font-weight: bold;
   margin: auto;
   display: inline;
   font-size: 1.8rem;
+  text-align: center;
 }
 .liste_plats {
   grid-column: 1 / span2;
@@ -164,6 +166,7 @@ font-weight: bold;
   margin: auto;
   display: inline;
   font-size: 1.8rem;
+  text-align: center;
 }
 .liste_desserts {
   grid-column: 1 / span2;
@@ -288,7 +291,7 @@ footer {
   }
 
   h2 {
-    font-size: 5rem;  
+    font-size: 5rem;
   }
 
   .gridmenu {
@@ -307,31 +310,29 @@ footer {
 
   .liste_entrée,
   .liste_plats,
-  .liste_desserts{
-      text-align: center;
+  .liste_desserts {
+    text-align: center;
   }
 
   li {
-     display:flex;  
-    flex-direction:column;
-    
+    display: flex;
+    flex-direction: column;
   }
 
   .basmenu {
-   visibility: hidden;
+    visibility: hidden;
   }
-  
+
   footer {
     line-height: 5rem;
     font-size: 2rem;
   }
 
-.footer_left {
+  .footer_left {
     padding-left: 2rem;
-   
   }
-  
-.footer_right {
+
+  .footer_right {
     padding-right: 1.5rem;
-}
+  }
 }
