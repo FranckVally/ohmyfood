@@ -145,7 +145,6 @@ h2 {
   grid-column: 1 / span 3;
   grid-row: 3;
   margin-left: 4rem;
- 
 }
 
 ul {
@@ -323,56 +322,53 @@ footer {
 /********************************media***************************/
 
 @media screen and (max-width: 900px) {
-    header {
-      line-height: 5rem;
-      font-size: 3rem;
-    }
-    h1 {
-      font-size: 3rem;
-    }
-  
-    h2 {
-      font-size: 5rem;  
-    }
-  
-    .gridmenu {
-      max-width: 100%;
-      padding: 1rem;
-      margin: 1rem 1rem  4rem 1rem;
-      font-size: 2rem;
-    }
-  
-    .entrée,
-    .plats,
-    .desserts {
-      font-size: 3rem;
-      text-align: center;
-    }
-  
-    .liste_entrée,
-    .liste_plats,
-    .liste_desserts{
-        text-align: center;
-    }
-  
-    li {
-       display:flex;  
-      flex-direction:column;
-      
-    }
-  
-    
-    footer {
-      line-height: 5rem;
-      font-size: 2rem;
-    }
-  
+  header {
+    line-height: 5rem;
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  .gridmenu {
+    max-width: 100%;
+    padding: 1rem;
+    margin: 1rem 1rem 4rem 1rem;
+    font-size: 2rem;
+  }
+
+  .entrée,
+  .plats,
+  .desserts {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .liste_entrée,
+  .liste_plats,
+  .liste_desserts {
+    text-align: center;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    line-height: 5rem;
+    font-size: 2rem;
+  }
+
   .footer_left {
-      padding-left: 2rem;
-     
-    }
-    
+    padding-left: 2rem;
+  }
+
   .footer_right {
-      padding-right: 1.5rem;
+    padding-right: 1.5rem;
   }
-  }
+}

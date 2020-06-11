@@ -28,15 +28,14 @@ header {
   width: 100%;
 }
 .marqueohmyfood {
-    color: #fdcb46;
-    text-align: center;
-    letter-spacing: -0.2rem;
-    line-height: 3rem;
-    font-family: "Montserrat", sans-serif;
-    font-size: 4rem;
-    width: 100%;
-  }
-  
+  color: #fdcb46;
+  text-align: center;
+  letter-spacing: -0.2rem;
+  line-height: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  width: 100%;
+}
 
 h1 {
   text-align: center;
