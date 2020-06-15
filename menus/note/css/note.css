@@ -35,8 +35,7 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   width: 100%;
-  margin-block-start: 2rem;
-  margin-block-end: 2rem;
+  margin: 2rem 0 2rem;
 }
 
 h1 {
