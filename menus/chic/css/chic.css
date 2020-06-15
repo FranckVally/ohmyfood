@@ -34,8 +34,7 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   width: 100%;
- 
-  }
+}
 
 h1 {
   text-align: center;
@@ -367,12 +366,10 @@ footer {
     visibility: hidden;
   }
 
-
   footer {
     font-size: 0.75rem;
   }
 }
-
 
 @media screen and (max-width: 360px) {
   header {
