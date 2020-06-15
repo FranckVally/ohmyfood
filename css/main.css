@@ -54,7 +54,7 @@ h2 {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: #fcdfdb;
   text-align: center;
-  padding: 5rem 0rem 5rem;
+  padding: 10rem 0rem 10rem;
   cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ h2 {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: rgb(236, 236, 236);
   text-align: center;
-  padding: 5rem 0rem 5rem;
+  padding: 10rem 0rem 10rem;
 }
 
 .delice h2 {
@@ -120,7 +120,7 @@ h2 {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: #fff5fe;
   text-align: center;
-  padding: 5rem 0rem 5rem;
+  padding: 10rem 0rem 10rem;
   cursor: pointer;
 }
 
@@ -153,7 +153,7 @@ h2 {
   -moz-box-shadow: 0px 0px 6px 6px #e7e2e2;
   background-color: rgb(236, 236, 236);
   text-align: center;
-  padding: 5rem 0rem 5rem;
+  padding: 10rem 0rem 10rem;
   cursor: pointer;
 }
 
@@ -252,12 +252,25 @@ footer {
 
 .zoom2 {
   overflow: hidden;
-  transition: transform 0.4s ease-in-out 0s;
+  transition: transform 1s ease-in-out 0s;
 }
 
 .zoom2:hover {
-  transition-duration: 0.5s;
-  transform: scale(1.3);
+    animation: opacity 1s;
+    transition-duration: 1s;
+    transform: scale(1.3);
+}
+
+@-webkit-keyframes opacity {
+    0% {
+        opacity: 1; 
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes wiggle {
@@ -328,6 +341,7 @@ footer {
   .note {
     height: 20rem;
     margin: 1rem auto 1rem;
+    
   }
 
   .notemusic {
@@ -361,6 +375,22 @@ footer {
   }
 
   footer {
-    line-height: 2rem;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
   }
+}
+
+@media screen and (max-width: 415px) {
+
+  
+
+  .delice,
+  .note,
+  .chic,
+  .palette{
+   padding: 1.5rem 0.5rem 1.5rem; 
+  }
+  .zoom2:hover {
+    transform: scale(1.2);
+} 
 }
