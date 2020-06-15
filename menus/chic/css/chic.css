@@ -368,10 +368,12 @@ footer {
     visibility: hidden;
   }
 
+
   footer {
-    line-height: 3rem;
-    font-size: 1rem;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
   }
+}
 
   .footer_left {
     padding-left: 2rem;
