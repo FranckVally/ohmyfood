@@ -375,21 +375,14 @@ footer {
     }
 
     footer {
-      line-height: 1.5rem;
       font-size: 0.75rem;
     }
-  }
+}
 
-    .footer_left {
-      padding-left: 2rem;
-    }
-
-    .footer_right {
-      padding-right: 2rem;
-    }
-  }
-  @media screen and (max-width: 360px) {
-    header {
+  
+  
+@media screen and (max-width: 360px) {
+  header {
       line-height: 2rem;
       font-size: 1.2rem;
     }
@@ -429,4 +422,3 @@ footer {
       font-size: 1.5rem;
     }
   }
-}

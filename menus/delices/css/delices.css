@@ -327,7 +327,7 @@ footer {
     max-width: 75%;
   }
 
-  @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     header {
       line-height: 4rem;
       font-size: 2rem;
@@ -378,56 +378,46 @@ footer {
     }
 
     footer {
-      line-height: 1.5rem;
       font-size: 0.75rem;
-    }
+    } 
+}
+@media screen and (max-width: 360px) {
+  header {
+    line-height: 2rem;
+    font-size: 2rem;
   }
-    .footer_left {
-      padding-left: 2rem;
-    }
-
-    .footer_right {
-      padding-right: 2rem;
-    }
+  h1 {
+    font-size: 1.5rem;
   }
-  @media screen and (max-width: 360px) {
-    header {
-      line-height: 2rem;
-      font-size: 2rem;
-    }
-    h1 {
-      font-size: 1.5rem;
-    }
 
-    h2 {
-      font-size: 2rem;
-    }
+  h2 {
+    font-size: 2rem;
+  }
 
-    .gridmenu {
-      max-width: 90%;
-      margin: 1rem 1rem 4rem 1rem;
-      font-size: 2rem;
-    }
+  .gridmenu {
+    max-width: 90%;
+    margin: 1rem 1rem 4rem 1rem;
+    font-size: 2rem;
+  }
 
-    .entrée,
-    .plats,
-    .desserts {
-      font-size: 1.5rem;
-      text-align: center;
-    }
+  .entrée,
+  .plats,
+  .desserts {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 
-    .liste_entrée,
-    .liste_plats,
-    .liste_desserts {
-      text-align: center;
-    }
+  .liste_entrée,
+  .liste_plats,
+  .liste_desserts {
+    text-align: center;
+  }
 
-    li {
-      display: flex;
-      flex-direction: column;
-    }
-    ul {
-      font-size: 1.3rem;
-    }
+  li {
+    display: flex;
+    flex-direction: column;
+  }
+  ul {
+    font-size: 1.3rem;
   }
 }
