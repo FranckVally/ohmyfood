@@ -90,7 +90,6 @@ h2 {
   background-color: rgb(236, 236, 236);
   text-align: center;
   padding: 5rem 0rem 5rem;
-  cursor: pointer;
 }
 
 .delice h2 {
@@ -127,7 +126,7 @@ h2 {
 
 .chic p {
   font-size: 1.1em;
-  font-style: bolt;
+  font-style: bold;
   font-family: "Croissant One", cursive;
   background: -webkit-linear-gradient(360deg, #d8852e, #905bfd);
   -webkit-background-clip: text;
