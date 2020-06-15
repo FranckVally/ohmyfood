@@ -179,6 +179,7 @@ h2 {
   padding-bottom: 2.5rem;
   padding-top: 1rem;
   margin: auto;
+  margin-top: 1rem;
 }
 
 button {
@@ -375,7 +376,6 @@ footer {
   }
 
   footer {
-    line-height: 1.5rem;
     font-size: 0.75rem;
   }
 }
